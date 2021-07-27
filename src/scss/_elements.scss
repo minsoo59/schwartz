@@ -1,6 +1,6 @@
 %categoryTitle {
   font-weight: 600;
-  font-size: 22px;
+  font-size: $fontSmall;
   margin-bottom: 50px;
 }
 
@@ -16,4 +16,11 @@
     background-color: black;
     color: white;
   }
+}
+
+%grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-column-start: span 2;
 }
